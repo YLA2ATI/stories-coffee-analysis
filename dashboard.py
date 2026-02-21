@@ -670,7 +670,8 @@ elif page == "☕ Product Deep-Dive":
                                     (df_core_products['Revenue'] > 0) &
                                     (df_core_products['Profit Margin'].between(-50, 100))].copy()
         
-        fig = px.scatter(df_menu, x='Qty', y='Profit Margin', size='Total Profit',
+        df_menu['Bubble Size'] = df_menu['Total Profit'].clip(lower=1)
+        fig = px.scatter(df_menu, x='Qty', y='Profit Margin', size='Bubble Size',
                          hover_name='Product', hover_data=['Revenue', 'Total Profit'],
                          color='Profit Margin', color_continuous_scale='tealgrn',
                          size_max=40)
