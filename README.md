@@ -1,4 +1,4 @@
-## 🌐 [▶ Live Dashboard](https://stories-coffee-analysis-tobsjfqs6ghjdt4seqfk8g.streamlit.app/)
+## 🌐 [▶ Live Dashboard](https://stories-coffee-analysis-tobsjfqs6ghjdt4seqfk8g.streamlit.app/) (Bonus Part)
 # Stories Coffee: Data-Driven Growth Strategy
 
 ## 📋 Business Problem
