@@ -1,7 +1,7 @@
-pandas
-numpy
-matplotlib
-seaborn
-reportlab
-streamlit
-plotly
+streamlit>=1.30
+plotly>=5.18
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+seaborn>=0.13
+reportlab>=4.0
